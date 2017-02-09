@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "AgilaBuzz 抓取插件",
+    "description": "老司机专用",
+    "version": "1.0",
+  //  "default_locale": "cn",
+
+    "browser_action": {
+        "default_icon": "19x19logo.png",
+        "default_popup": "browseraction.html",
+        "default_title": "Click me"
+    },
+    "permissions": [
+        "storage",
+        "https://ajax.googleapis.com/"
+    ],
+
+    "author": "GethinZhang (zhangguanxing@agilanews.com)",
+    "externally_connectable": {
+        "matches": ["*://*.agilanews.com/*"]
+    }
+}
